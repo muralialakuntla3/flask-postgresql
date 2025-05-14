@@ -29,14 +29,10 @@ CREATE TABLE users (
     number VARCHAR(20)
 );
 ```
-## Create virtual environment
+## Install dependencies
 ```
-python3 -m venv venv
-source venv/bin/activate
-```
-## Install required Python packages
-```
-pip install flask psycopg2
+sudo apt install python3-flask
+sudo apt install python3-psycopg2
 ```
 ## Run app
 ```
