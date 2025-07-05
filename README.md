@@ -1,4 +1,8 @@
 # flask-postgresql Deployment
+## download the code into server
+```
+git clone https://github.com/muralialakuntla3/flask-postgresql.git
+```
 ## Install PostgreSql 
 ```
 sudo apt update
