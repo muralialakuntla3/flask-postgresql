@@ -14,12 +14,16 @@ sudo apt -y install postgresql-16
 ```
 psql -h azure2501db.postgres.database.azure.com -p 5432 -U adminuser postgres
 ```
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/efe3b911-4a6f-4cab-b5b6-b186070378ef" />
+
 ## Create database and Table for application
 ```
-CREATE DATABASE demo_app
+CREATE DATABASE demo_app;
 \c demo_app
 \dt
 ```
+<img width="501" alt="image" src="https://github.com/user-attachments/assets/76c16bf1-ed0b-4529-a67d-959080a35c4e" />
+
 ### Create Table
 ```
 CREATE TABLE users (
