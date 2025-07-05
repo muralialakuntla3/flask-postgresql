@@ -33,12 +33,17 @@ CREATE TABLE users (
     number VARCHAR(20)
 );
 ```
+## download the code into server anfd run the application
+```
+git clone https://github.com/muralialakuntla3/flask-postgresql.git
+cd flask-postgresql
+```
 ## Install dependencies
 ```
 sudo apt install python3-flask
 sudo apt install python3-psycopg2
 ```
-## Run app
+## run application
 ```
 python3 app.py 
 ```
