@@ -18,6 +18,7 @@ psql -h azure2501db.postgres.database.azure.com -p 5432 -U adminuser postgres
 
 ## Create database and Table for application
 ```
+\list
 CREATE DATABASE demo_app;
 \c demo_app
 \dt
