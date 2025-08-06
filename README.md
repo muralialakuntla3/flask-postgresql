@@ -38,8 +38,8 @@ CREATE TABLE users (
 ### check the table and table data
 ```
 \dt
-SELECT * FROM users:
-exit
+SELECT * FROM "users";
+exit;
 ```
 <img width="272" alt="image" src="https://github.com/user-attachments/assets/8e1ab403-53ca-4007-88c4-55579e8745b7" />
 
